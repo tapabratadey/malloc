@@ -41,8 +41,10 @@ void ft_free(void *ptr);
 void *ft_malloc(size_t size);
 void *ft_realloc(void *ptr, size_t size);
 
-void    tiny(size_t size, t_malloc *assign);
-void    small(size_t size, t_malloc *assign);
-void    large(size_t size, t_malloc *assign);
+t_malloc    *tiny(size_t size, t_malloc *for_used, t_malloc *for_free);
+t_malloc    *small(size_t size, t_malloc *for_used, t_malloc *for_free);
+t_malloc    *large(size_t size, t_malloc *for_used, t_malloc *for_free);
+
+// void checker(size_t size, int max_size);
 
 #endif
