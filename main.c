@@ -15,13 +15,13 @@
 int main()
 {
     char *first;
-    // char *second;
+    char *second;
     // char *third;
     printf("\n---INFO---\n\n");
     first = ft_malloc(10);
-    printf("%s\n", ft_strcpy(first, "tapabratad"));
-    // second = ft_malloc(5);
-    // printf("%s\n\n", ft_strcpy(first, "tapdfsdfdfsfa"));
+    printf("%s\n\n", ft_strcpy(first, "tapabratad"));
+    second = ft_malloc(5);
+    printf("%s\n\n", ft_strcpy(second, "tapdfsdfdfsfa"));
     // third = malloc(9);
     // printf("%s", ft_strcpy(first, "blahblah"));
     return (0);
